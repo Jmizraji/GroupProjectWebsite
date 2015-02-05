@@ -1,0 +1,82 @@
+
+/* CSS Document */
+
+/* unvisited link */
+a:link {
+	color:black;
+	text-decoration:none;
+}    
+	 
+/* visited link */
+a:visited {
+	color:black;
+}
+
+/* mouse over link */	
+a:hover {
+	color:black;
+} 
+
+/* selected link */
+a:active {
+	color:black;
+}  /* selected link */ 
+.nav{
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+	font-family:"Walkway SemiBold";
+	font-size:36px;
+	border-bottom:solid;
+	border-bottom-color:white;
+	
+}
+.nav li{
+    display:inline;
+}
+.nav a{
+    display:inline-block;
+    padding:10px;
+}
+
+.bodycolor{
+	background-color:white;
+	color: black;
+	font-family: helvetica;
+}
+.selectedpage{
+	color: #C00;
+}
+
+.imagebreak{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;  
+	}
+	
+	.survey{
+	width: 300px;
+	height: 331px;
+	border: thin;
+	float: left;
+	left: 176px;
+	top: 1315px;
+	}
+	
+.survey1{
+	width: 300px;
+	height: 342px;
+	border: thin;
+	float: right;
+	left: 519px;
+	top: 1315px;
+	}
+.even{
+	width: 676px;
+	height: 179px;
+	border: thin;
+	float: center;
+	left: 167px;
+	top: 1676px;
+	}
